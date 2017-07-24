@@ -5,7 +5,8 @@
         "file": "extension.es",
         "version": "ab72e50",
         "title": "AFK Messages",
-        "description": "Let your players set an AFK message if they will be online but not responding to chat."
+        "description": "Let your players set an AFK message if they will be online but not responding to chat.",
+        "env": "all"
     },
     {
         "user": "Bibliofile",
@@ -13,7 +14,8 @@
         "file": "biblio_op.js",
         "version": "v1.2.1",
         "title": "OP Messages",
-        "description": "Let players use /op to send a message to you."
+        "description": "Let players use /op to send a message to you.",
+        "env": "all"
     },
     {
         "user": "Bibliofile",
@@ -21,6 +23,7 @@
         "file": "extension.js",
         "version": "233140d",
         "title": "Temporary Bans",
-        "description": "Lets you use /TEMP-BAN to ban someone for just a few minutes."
+        "description": "Lets you use /TEMP-BAN to ban someone for just a few minutes.",
+        "env": "all"
     }
 ]

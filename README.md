@@ -13,7 +13,8 @@ For extensions to be added to this list, they must be publicly available on GitH
     "file": "biblio_op.js",
     "version": "v1.2.1",
     "title": "OP Messages",
-    "description": "Let players use /op to send a message to you."
+    "description": "Let players use /op to send a message to you.",
+    "env": "all"
 }
 ```
 
@@ -25,3 +26,17 @@ For extensions to be added to this list, they must be publicly available on GitH
 | `version` | The tag or commit ish that should be used to get the correct version of your extension |
 | `title` | The title to display to users of the bot. |
 | `description` | The description to display to users of the bot. |
+| `env` | The environments the extension supports. More below. |
+
+The `env` property can contain any of the following values, which can be combined with a `+` to specify more than one. Whitespace is ignored.
+
+- `all` - All bot environments are supported.
+- `browser` - Any browser, does not include Electron.
+- `cli` - Any command line.
+- `electron` - Only supported in Electron.
+- `cloud` - Only cloud servers are supported.
+- `mac` - Only Mac servers are supported.
+
+Examples:
+- `browser+electron` - Will only be loaded if in a browser (launched with a bookmarklet), or in Electron
+- `electron + mac` - Will only be loaded if in Electron on a Mac
