@@ -30,12 +30,14 @@ For extensions to be added to this list, they must be publicly available on GitH
 
 The `env` property can contain any of the following values, which can be combined with a `+` to specify more than one. Whitespace is ignored.
 
-- `all` - All bot environments are supported.
-- `browser` - Any browser, does not include Electron.
-- `cli` - Any command line.
-- `electron` - Only supported in Electron.
-- `cloud` - Only cloud servers are supported.
-- `mac` - Only Mac servers are supported.
+- `all` - All bot environments are supported. (Can be specified if you use only the bot's api)
+- `browser` - Supports non-Electron browsers
+- `cli` - Supports command lines.
+- `electron` - Supports Electron.
+- `cloud` - Supports cloud servers.
+- `mac` - Supports Mac servers.
+
+If neither `cloud` nor `mac` is specified, it is assumed that both are supported.
 
 Examples:
 - `browser+electron` - Will only be loaded if in a browser (launched with a bookmarklet), or in Electron
