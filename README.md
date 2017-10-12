@@ -9,7 +9,7 @@ For extensions to be added to this list, they must be publicly available on GitH
 ```json
 {
     "user": "Bibliofile",
-    "id": "bibliofile/slash-op"
+    "id": "bibliofile/slash-op",
     "repo": "BHMB-Slash-OP",
     "file": "biblio_op.js",
     "version": "v1.2.1",
