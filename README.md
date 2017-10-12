@@ -10,7 +10,7 @@ For extensions to be added to this list, they must be publicly available on GitH
 {
     "user": "Bibliophile",
     "id": "slash-op",
-    "url": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Slash-OP/master/biblio_op.js",
+    "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Slash-OP/master/biblio_op.js",
     "title": "OP Messages",
     "description": "Let players use /op to send a message to you.",
     "env": "all"
@@ -21,12 +21,12 @@ For extensions to be added to this list, they must be publicly available on GitH
 | --- | --- |
 | `user` | Your GitHub username |
 | `id` | The ID of the extension that will be registered. Must be lowercase. |
-| `url` | The URL of the script to load |
-| `cli` | Optional. The npm package or github URL to load for your extension on cli environments. |
+| `package` | The URL, github repo, or npm package name of the extension. See the loading procedure below for details. |
 | `title` | The title to display to users of the bot. |
 | `description` | The description to display to users of the bot. |
 | `env` | The environments the extension supports. More below. |
 
+#### The `env` field
 The `env` property can contain any of the following values, which can be combined with a `+` to specify more than one. Whitespace is ignored.
 
 - `all` - All bot environments are supported. (Can be specified if you use only the bot's api)
@@ -40,3 +40,9 @@ If neither `cloud` nor `mac` is specified, it is assumed that both are supported
 Examples:
 - `browser+cloud` - Will only be loaded if in a browser for cloud servers.
 - `cli + mac` - Will only be loaded if in a cli environment on a Mac
+
+## Loading procedure
+
+When an extension is installed, extension managers take the following steps: 
+1. If `package` ends in `.js`, `.mjs`, or `.es`, take the `package` field to be a JS file and load directly.
+1. If the `package` field is not a JS file, install as a dependency using `npm`, or error if not possible.
