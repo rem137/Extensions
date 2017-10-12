@@ -9,6 +9,7 @@ For extensions to be added to this list, they must be publicly available on GitH
 ```json
 {
     "user": "Bibliofile",
+    "id": "bibliofile/slash-op"
     "repo": "BHMB-Slash-OP",
     "file": "biblio_op.js",
     "version": "v1.2.1",
@@ -21,6 +22,7 @@ For extensions to be added to this list, they must be publicly available on GitH
 | Entry | Description |
 | --- | --- |
 | `user` | Your GitHub username |
+| `id` | The ID of the extension that will be registered. Should be prefixed with your username. |
 | `repo` | The Repo your extension lives in |
 | `file` | The file (or path to a file) that the extension is contained in |
 | `version` | The tag or commit ish that should be used to get the correct version of your extension |
