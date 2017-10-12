@@ -1,6 +1,6 @@
 # BHMB-Extensions
 
-This is a list of extensions for the [Blockheads MessageBot](https://github.com/Bibliofile/Blockheads-MessageBot). If you want to add your extension, review the instructions below and submit a pull request.
+This is a list of extensions for the [Blockheads MessageBot](https://github.com/Blockheads-MessageBot/MessageBot). If you want to add your extension, review the instructions below and submit a pull request.
 
 ## Adding an extension
 
@@ -8,11 +8,9 @@ For extensions to be added to this list, they must be publicly available on GitH
 
 ```json
 {
-    "user": "Bibliofile",
-    "id": "bibliofile/slash-op",
-    "repo": "BHMB-Slash-OP",
-    "file": "biblio_op.js",
-    "version": "v1.2.1",
+    "user": "Bibliophile",
+    "id": "slash-op",
+    "url": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Slash-OP/master/biblio_op.js",
     "title": "OP Messages",
     "description": "Let players use /op to send a message to you.",
     "env": "all"
@@ -22,11 +20,9 @@ For extensions to be added to this list, they must be publicly available on GitH
 | Entry | Description |
 | --- | --- |
 | `user` | Your GitHub username |
-| `id` | The ID of the extension that will be registered. Should be prefixed with your username. |
-| `repo` | The Repo your extension lives in |
-| `branch` | Optional - The branch that the file is in defaults to master |
-| `file` | The file (or path to a file) that the extension is contained in |
-| `version` | The tag or commit ish that should be used to get the correct version of your extension |
+| `id` | The ID of the extension that will be registered. Must be lowercase. |
+| `url` | The URL of the script to load |
+| `cli` | Optional. The npm package or github URL to load for your extension on cli environments. |
 | `title` | The title to display to users of the bot. |
 | `description` | The description to display to users of the bot. |
 | `env` | The environments the extension supports. More below. |
@@ -34,14 +30,13 @@ For extensions to be added to this list, they must be publicly available on GitH
 The `env` property can contain any of the following values, which can be combined with a `+` to specify more than one. Whitespace is ignored.
 
 - `all` - All bot environments are supported. (Can be specified if you use only the bot's api)
-- `browser` - Supports non-Electron browsers
+- `browser` - Supports browsers
 - `cli` - Supports command lines.
-- `electron` - Supports Electron.
 - `cloud` - Supports cloud servers.
 - `mac` - Supports Mac servers.
 
 If neither `cloud` nor `mac` is specified, it is assumed that both are supported.
 
 Examples:
-- `browser+electron` - Will only be loaded if in a browser (launched with a bookmarklet), or in Electron
-- `electron + mac` - Will only be loaded if in Electron on a Mac
+- `browser+cloud` - Will only be loaded if in a browser for cloud servers.
+- `cli + mac` - Will only be loaded if in a cli environment on a Mac
