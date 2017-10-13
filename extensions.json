@@ -14,7 +14,7 @@
         "title": "OP Messages",
         "description": "Let players use /op to send a message to you.",
         "env": "all"
-    }
+    },
     {
         "user": "Bibliofile",
         "id": "bibliofile/tempban",
