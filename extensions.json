@@ -1,26 +1,10 @@
 [
     {
         "user": "Bibliophile",
-        "id": "bibliofile/tempban",
-        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-AFKResponder/master/extension.es",
-        "title": "AFK Messages",
-        "description": "Let your players set an AFK message if they will be online but not responding to chat.",
-        "env": "all"
-    },
-    {
-        "user": "Bibliophile",
-        "id": "bibliofile/slash-op",
-        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Slash-OP/master/biblio_op.js",
-        "title": "OP Messages",
-        "description": "Let players use /op to send a message to you.",
-        "env": "all"
-    },
-    {
-        "user": "Bibliofile",
-        "id": "bibliofile/tempban",
-        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-TempBan/master/extension.js",
-        "title": "Temporary Bans",
-        "description": "Lets you use /TEMP-BAN to ban someone for just a few minutes.",
+        "id": "bibliofile/marcopolo",
+        "package": "https://gistcdn.githack.com/Bibliofile/800674eac02cd159621830c78d70fbf6/raw/1e6b52eed8a280dfcf456575f999fc9720070ffc/marco.js",
+        "title": "[Demo] Marco Polo",
+        "description": "Adds the /marco command to chat.",
         "env": "all"
     }
 ]
