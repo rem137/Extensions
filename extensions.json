@@ -9,6 +9,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/afk",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-AFKResponder/master/build/bundle.js",
+        "title": "AFK Messages",
+        "description": "Let your players set an AFK message if they will be online but not responding to chat.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/slash_op",
         "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Slash-OP/master/build/bundle.js",
         "title": "OP Messages",
