@@ -6,5 +6,13 @@
         "title": "[Demo] Marco Polo",
         "description": "Adds the /marco command to chat.",
         "env": "all"
+    },
+    {
+        "user": "Bibliophile",
+        "id": "bibliofile/warnings",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Warnings/master/build/bundle.js",
+        "title": "Warnings",
+        "description": "Lets you use /warn to warn players before banning them, and automatically ban players with too many warnings.",
+        "env": "all"
     }
 ]
