@@ -9,6 +9,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/slash_op",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Slash-OP/master/build/bundle.js",
+        "title": "OP Messages",
+        "description": "Let players use /op to send a message to you.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/warnings",
         "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Warnings/master/build/bundle.js",
         "title": "Warnings",
