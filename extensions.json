@@ -38,5 +38,5 @@
         "title": "Group Management",
         "description": "Create usergroups with custom permissions to use commands. You can also use /GM-HELP to edit permissions in-game.",
         "env": "all"
-    },
+    }
 ]
