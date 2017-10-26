@@ -30,5 +30,13 @@
         "title": "Warnings",
         "description": "Lets you use /warn to warn players before banning them, and automatically ban players with too many warnings.",
         "env": "all"
-    }
+    },
+    {
+        "user": "DaPerson",
+        "id": "dapersonmgn/groupmanagement",
+        "package": "https://cdn.rawgit.com/dapersonmgn/BHMB-groupManagement/c3381f8c/build/bundle.js",
+        "title": "Group Management",
+        "description": "Create usergroups with custom permissions to use commands. You can also use /GM-HELP to edit permissions in-game.",
+        "env": "all"
+    },
 ]
