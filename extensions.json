@@ -8,6 +8,14 @@
         "env": "all"
     },
     {
+        "user": "DaPerson",
+        "id": "dapersonmgn/groupmanagement",
+        "package": "https://cdn.rawgit.com/dapersonmgn/BHMB-groupManagement/c3381f8c/build/bundle.js",
+        "title": "Group Management",
+        "description": "Create usergroups with custom permissions to use commands. You can also use /GM-HELP to edit permissions in-game.",
+        "env": "all"
+    },
+    {
         "user": "Bibliophile",
         "id": "bibliofile/marcopolo",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/800674eac02cd159621830c78d70fbf6/raw/1e6b52eed8a280dfcf456575f999fc9720070ffc/marco.js",
@@ -29,14 +37,6 @@
         "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Warnings/master/build/bundle.js",
         "title": "Warnings",
         "description": "Lets you use /warn to warn players before banning them, and automatically ban players with too many warnings.",
-        "env": "all"
-    },
-    {
-        "user": "DaPerson",
-        "id": "dapersonmgn/groupmanagement",
-        "package": "https://cdn.rawgit.com/dapersonmgn/BHMB-groupManagement/c3381f8c/build/bundle.js",
-        "title": "Group Management",
-        "description": "Create usergroups with custom permissions to use commands. You can also use /GM-HELP to edit permissions in-game.",
         "env": "all"
     }
 ]
