@@ -6,6 +6,8 @@ This is a list of extensions for the [Blockheads MessageBot](https://github.com/
 
 For extensions to be added to this list, they must be publicly available on GitHub. Stable releases can be added to `extensions.json` and must include a stable commit link. Beta extensions can be added to `extensions_beta.json` and may use branches such as `master` as the version of the extension. When adding extensions, please keep them sorted alphabetically by `title`.
 
+Note: `developers.json` is provided for extensions that are intended for use by developers and not normal users.
+
 ```json
 {
     "user": "Bibliophile",
@@ -43,6 +45,6 @@ Examples:
 
 ## Loading procedure
 
-When an extension is installed, extension managers take the following steps: 
+When an extension is installed, extension managers take the following steps:
 1. If `package` ends in `.js`, `.mjs`, or `.es`, take the `package` field to be a JS file and load directly.
 1. If the `package` field is not a JS file, install as a dependency using `npm`, or error if not possible.
