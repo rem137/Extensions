@@ -8,6 +8,14 @@
         "env": "all"
     },
     {
+        "user": "Bibliophile",
+        "id": "bibliofile/censoring",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Censor-List/master/build/bundle.js",
+        "title": "Censor List",
+        "description": "Easily create a censor list to ban those who use foul language on your server.",
+        "env": "all"
+    },
+    {
         "user": "DaPerson",
         "id": "dapersonmgn/groupmanagement",
         "package": "https://cdn.rawgit.com/dapersonmgn/BHMB-groupManagement/c3381f8c/build/bundle.js",
