@@ -1,18 +1,18 @@
 [
     {
         "user": "Bibliophile",
-        "id": "bibliofile/marcopolo",
-        "package": "https://gistcdn.githack.com/Bibliofile/800674eac02cd159621830c78d70fbf6/raw/1e6b52eed8a280dfcf456575f999fc9720070ffc/marco.js",
-        "title": "[Demo] Marco Polo",
-        "description": "Adds the /marco command to chat.",
-        "env": "all"
-    },
-    {
-        "user": "Bibliophile",
         "id": "bibliofile/afk",
         "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-AFKResponder/master/build/bundle.js",
         "title": "AFK Messages",
         "description": "Let your players set an AFK message if they will be online but not responding to chat.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
+        "id": "bibliofile/marcopolo",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/800674eac02cd159621830c78d70fbf6/raw/1e6b52eed8a280dfcf456575f999fc9720070ffc/marco.js",
+        "title": "Marco Polo [Demo]",
+        "description": "Adds the /marco command to chat.",
         "env": "all"
     },
     {
