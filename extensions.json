@@ -16,6 +16,14 @@
         "env": "all"
     },
     {
+        "user": "Bibliophile",
+        "id": "bibliofile/cron",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Cron-Messages/master/build/bundle.js",
+        "title": "Cron Messages",
+        "description": "A re-imagined timer messages system.",
+        "env": "all"
+    },
+    {
         "user": "DaPerson",
         "id": "dapersonmgn/groupmanagement",
         "package": "https://cdn.rawgit.com/dapersonmgn/BHMB-groupManagement/c3381f8c/build/bundle.js",
