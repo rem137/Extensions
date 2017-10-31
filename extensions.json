@@ -33,6 +33,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/lists",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-List-Manager/master/build/bundle.js",
+        "title": "List Manager",
+        "description": "Easily manage lists for multiple servers.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/marcopolo",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/800674eac02cd159621830c78d70fbf6/raw/1e6b52eed8a280dfcf456575f999fc9720070ffc/marco.js",
         "title": "Marco Polo [Demo]",
