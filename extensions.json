@@ -2,7 +2,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/afk",
-        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-AFKResponder/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-AFKResponder/master/build/bundle.js",
         "title": "AFK Messages",
         "description": "Let your players set an AFK message if they will be online but not responding to chat.",
         "env": "all"
@@ -10,7 +10,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/censoring",
-        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Censor-List/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Censor-List/master/build/bundle.js",
         "title": "Censor List",
         "description": "Easily create a censor list to ban those who use foul language on your server.",
         "env": "all"
@@ -34,7 +34,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/lists",
-        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-List-Manager/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-List-Manager/master/build/bundle.js",
         "title": "List Manager",
         "description": "Easily manage lists for multiple servers.",
         "env": "all"
@@ -50,7 +50,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/slash_op",
-        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Slash-OP/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Slash-OP/master/build/bundle.js",
         "title": "OP Messages",
         "description": "Let players use /op to send a message to you.",
         "env": "all"
@@ -58,7 +58,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/warnings",
-        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Warnings/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Warnings/master/build/bundle.js",
         "title": "Warnings",
         "description": "Lets you use /warn to warn players before banning them, and automatically ban players with too many warnings.",
         "env": "all"
