@@ -16,6 +16,14 @@
         "env": "all"
     },
     {
+        "user": "DaPerson",
+        "id": "dapersonmgn/combatmessages",
+        "package": "https://gitcdn.xyz/cdn/dapersonmgn/BHMB-CombatMessages/master/build/bundle.js",
+        "title": "Combat Messages",
+        "description": "Allows you to send messages whenever someone dies/get's hit.",
+        "env": "all"
+    },
+    {
         "user": "Bibliophile",
         "id": "bibliofile/cron",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Cron-Messages/master/build/bundle.js",
@@ -41,6 +49,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/logs",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-LogViewer/master/build/bundle.js",
+        "title": "Log Viewer",
+        "description": "Makes it easier to review your server logs without getting lost in the noise.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/marcopolo",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/800674eac02cd159621830c78d70fbf6/raw/1e6b52eed8a280dfcf456575f999fc9720070ffc/marco.js",
         "title": "Marco Polo [Demo]",
@@ -53,14 +69,6 @@
         "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Slash-OP/master/build/bundle.js",
         "title": "OP Messages",
         "description": "Let players use /op to send a message to you.",
-        "env": "all"
-    },
-    {
-        "user": "DaPerson",
-        "id": "dapersonmgn/combatmessages",
-        "package": "https://gitcdn.xyz/cdn/dapersonmgn/BHMB-CombatMessages/master/build/bundle.js",
-        "title": "Combat Messages",
-        "description": "Allows you to send messages whenever someone dies/get's hit.",
         "env": "all"
     },
     {
