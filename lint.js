@@ -25,6 +25,7 @@ function validateJSON(json) {
         assert.deepEqual(Object.keys(ex), keys, `Missing key or extra key for ${id}`)
         assert.ok(isValidEnv(ex.env), `Invalid env for ${id}`)
         assert.ok(!ex.package.includes('github.com'), `package should not link directly to github, ${id}`)
+        assert.ok(!ex.package.includes('gitcdn.xyz/repo'), 'gitcdn.xyz links should use /cdn not /repo')
 
         if (seen.includes(id)) {
             assert.fail(`Duplicate id ${id}`)
