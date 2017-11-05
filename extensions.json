@@ -56,6 +56,14 @@
         "env": "all"
     },
     {
+        "user": "DaPerson",
+        "id": "dapersonmgn/combatmessages",
+        "package": "https://gitcdn.xyz/cdn/dapersonmgn/BHMB-CombatMessages/master/build/bundle.js",
+        "title": "Combat Messages",
+        "description": "Allows you to send messages whenever someone dies/get's hit.",
+        "env": "all"
+    },
+    {
         "user": "Bibliophile",
         "id": "bibliofile/warnings",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Warnings/master/build/bundle.js",
