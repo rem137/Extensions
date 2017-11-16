@@ -62,7 +62,7 @@
         "title": "Mail",
         "description": "Send mail to other players who are offline! See /mail help for more info.",
         "env": "all"
-    }
+    },
     {
         "user": "Bibliophile",
         "id": "bibliofile/manpages",
