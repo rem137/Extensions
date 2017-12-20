@@ -56,6 +56,14 @@
         "env": "all"
     },
     {
+        "user": "DaPerson",
+        "id": "dapersonmgn/mail",
+        "package": "https://gitcdn.xyz/cdn/dapersonmgn/BHMB-mail/master/build/bundle.js",
+        "title": "Mail",
+        "description": "Send mail to other players who are offline! See /mail help for more info.",
+        "env": "all"
+    },
+    {
         "user": "Bibliophile",
         "id": "bibliofile/manpages",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Manpages/master/build/bundle.js",
