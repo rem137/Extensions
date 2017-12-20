@@ -81,6 +81,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/banking",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Server-Currency/master/build/bundle.js",
+        "title": "Server Currency",
+        "description": "Are gold coins too cheap? Create your own currency.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/warnings",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Warnings/master/build/bundle.js",
         "title": "Warnings",
