@@ -121,6 +121,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/tempban",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-TempBan/master/build/bundle.js",
+        "title": "Temporary Bans",
+        "description": "Makes it possible to ban players for only a few minutes.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/warnings",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Warnings/master/build/bundle.js",
         "title": "Warnings",
