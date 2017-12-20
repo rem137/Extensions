@@ -97,6 +97,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/name_triggers",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-NameTriggers/master/build/bundle.js",
+        "title": "Name Triggers",
+        "description": "Send messages based on player names when they join the server.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/slash_op",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Slash-OP/master/build/bundle.js",
         "title": "OP Messages",
