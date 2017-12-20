@@ -9,6 +9,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/ban_messages",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/912fabe1a2e6ab2d19903e0d746d69cf/raw/2489ae162ed94306385511e5f00c7a7de1a3666e/bans.js",
+        "title": "Ban Messages",
+        "description": "Announce when someone gets banned in chat.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/censoring",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Censor-List/master/build/bundle.js",
         "title": "Censor List",
