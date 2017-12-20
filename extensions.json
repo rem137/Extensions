@@ -25,6 +25,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/countdown",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/105ef6dadc0924e6778456809c65b4aa/raw/6a32a06f9e633c0ee422f1e656f9b76493ff0264/countdown.js",
+        "title": "Countdown",
+        "description": "Use /count or /count # to start a countdown, use /timer and /done to time an event.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/cron",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Cron-Messages/master/build/bundle.js",
         "title": "Cron Messages",
