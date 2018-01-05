@@ -9,6 +9,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/analytics",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Server-Analytics/master/build/bundle.js",
+        "title": "Analytics",
+        "description": "Statistics on your server's activity.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/ban_messages",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/912fabe1a2e6ab2d19903e0d746d69cf/raw/2489ae162ed94306385511e5f00c7a7de1a3666e/bans.js",
         "title": "Ban Messages",
