@@ -121,6 +121,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/quests",
+        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Quests/master/build/bundle.js",
+        "title": "Quests",
+        "description": "Create quests that players can complete to gain XP and levels.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/banking",
         "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Server-Currency/master/build/bundle.js",
         "title": "Server Currency",
