@@ -2,7 +2,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/afk",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-AFKResponder/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-AFKResponder/master/build/bundle.js",
         "title": "AFK Messages",
         "description": "Let your players set an AFK message if they will be online but not responding to chat.",
         "env": "all"
@@ -10,7 +10,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/analytics",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Server-Analytics/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Server-Analytics/master/build/bundle.js",
         "title": "Analytics",
         "description": "Statistics on your server's activity.",
         "env": "all"
@@ -18,7 +18,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/ban_messages",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/912fabe1a2e6ab2d19903e0d746d69cf/raw/2489ae162ed94306385511e5f00c7a7de1a3666e/bans.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/912fabe1a2e6ab2d19903e0d746d69cf/raw/2489ae162ed94306385511e5f00c7a7de1a3666e/bans.js",
         "title": "Ban Messages",
         "description": "Announce when someone gets banned in chat.",
         "env": "all"
@@ -26,7 +26,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/censoring",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Censor-List/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Censor-List/master/build/bundle.js",
         "title": "Censor List",
         "description": "Easily create a censor list to ban those who use foul language on your server.",
         "env": "all"
@@ -34,7 +34,7 @@
     {
         "user": "DaPerson",
         "id": "dapersonmgn/combatmessages",
-        "package": "https://gitcdn.xyz/cdn/dapersonmgn/BHMB-CombatMessages/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/dapersonmgn/BHMB-CombatMessages/master/build/bundle.js",
         "title": "Combat Messages",
         "description": "Allows you to send messages whenever someone dies/get's hit.",
         "env": "all"
@@ -42,7 +42,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/countdown",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/105ef6dadc0924e6778456809c65b4aa/raw/6a32a06f9e633c0ee422f1e656f9b76493ff0264/countdown.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/105ef6dadc0924e6778456809c65b4aa/raw/6a32a06f9e633c0ee422f1e656f9b76493ff0264/countdown.js",
         "title": "Countdown",
         "description": "Use /count or /count # to start a countdown, use /timer and /done to time an event.",
         "env": "all"
@@ -50,7 +50,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/cron",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Cron-Messages/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Cron-Messages/master/build/bundle.js",
         "title": "Cron Messages",
         "description": "A re-imagined timer messages system.",
         "env": "all"
@@ -58,7 +58,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/dice",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/6ae2882823c337283d5f76c9097e054d/raw/295c67ce749e9fca03b1851d475a369b91cd4f1c/addon.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/6ae2882823c337283d5f76c9097e054d/raw/295c67ce749e9fca03b1851d475a369b91cd4f1c/addon.js",
         "title": "Dice",
         "description": "Adds the /roll command: /roll, /roll 2, /roll 2d10",
         "env": "all"
@@ -66,7 +66,7 @@
     {
         "user": "DaPerson",
         "id": "dapersonmgn/groupmanagement",
-        "package": "https://gitcdn.xyz/cdn/dapersonmgn/BHMB-groupManagement/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/dapersonmgn/BHMB-groupManagement/master/build/bundle.js",
         "title": "Group Management",
         "description": "Create usergroups with custom permissions to use commands. You can also use /GM-HELP to edit permissions in-game.",
         "env": "all"
@@ -74,7 +74,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/lists",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-List-Manager/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-List-Manager/master/build/bundle.js",
         "title": "List Manager",
         "description": "Easily manage lists for multiple servers.",
         "env": "all"
@@ -82,7 +82,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/logs",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-LogViewer/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-LogViewer/master/build/bundle.js",
         "title": "Log Viewer",
         "description": "Makes it easier to review your server logs without getting lost in the noise.",
         "env": "all"
@@ -90,7 +90,7 @@
     {
         "user": "DaPerson",
         "id": "dapersonmgn/mail",
-        "package": "https://gitcdn.xyz/cdn/dapersonmgn/BHMB-mail/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/dapersonmgn/BHMB-mail/master/build/bundle.js",
         "title": "Mail",
         "description": "Send mail to other players who are offline! See /mail help for more info.",
         "env": "all"
@@ -98,7 +98,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/manpages",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Manpages/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Manpages/master/build/bundle.js",
         "title": "Man Pages",
         "description": "Create a structured help page system for your players.",
         "env": "all"
@@ -106,7 +106,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/marcopolo",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/800674eac02cd159621830c78d70fbf6/raw/1e6b52eed8a280dfcf456575f999fc9720070ffc/marco.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/800674eac02cd159621830c78d70fbf6/raw/1e6b52eed8a280dfcf456575f999fc9720070ffc/marco.js",
         "title": "Marco Polo [Demo]",
         "description": "Adds the /marco command to chat.",
         "env": "all"
@@ -114,7 +114,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/name_triggers",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-NameTriggers/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-NameTriggers/master/build/bundle.js",
         "title": "Name Triggers",
         "description": "Send messages based on player names when they join the server.",
         "env": "all"
@@ -122,7 +122,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/slash_op",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Slash-OP/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Slash-OP/master/build/bundle.js",
         "title": "OP Messages",
         "description": "Let players use /op to send a message to you.",
         "env": "all"
@@ -130,7 +130,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/quests",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Quests/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Quests/master/build/bundle.js",
         "title": "Quests",
         "description": "Create quests that players can complete to gain XP and levels.",
         "env": "all"
@@ -138,7 +138,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/banking",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Server-Currency/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Server-Currency/master/build/bundle.js",
         "title": "Server Currency",
         "description": "Are gold coins too cheap? Create your own currency.",
         "env": "all"
@@ -146,7 +146,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/tempban",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-TempBan/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-TempBan/master/build/bundle.js",
         "title": "Temporary Bans",
         "description": "Makes it possible to ban players for only a few minutes.",
         "env": "all"
@@ -154,7 +154,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/warnings",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/BHMB-Warnings/master/build/bundle.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Warnings/master/build/bundle.js",
         "title": "Warnings",
         "description": "Lets you use /warn to warn players before banning them, and automatically ban players with too many warnings.",
         "env": "all"

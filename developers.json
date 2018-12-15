@@ -2,7 +2,7 @@
     {
         "user": "Bibliophile",
         "id": "bibliofile/global",
-        "package": "https://gitcdn.xyz/cdn/Bibliofile/d62aceaa08bc8ac1d522357a5c5ef73c/raw/528781db2fb42a14c965ca1b0b451b6b7cd5e389/global.js",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/d62aceaa08bc8ac1d522357a5c5ef73c/raw/528781db2fb42a14c965ca1b0b451b6b7cd5e389/global.js",
         "title": "Global [Dev]",
         "description": "Adds `bot` and `ex` to the global scope for quick access.",
         "env": "browser"
@@ -10,7 +10,7 @@
     {
         "user": "DaPerson",
         "id": "dapersonmgn/worldcommands",
-        "package": "https://gitcdn.xyz/cdn/dapersonmgn/BHMB-worldCommands/master/index.js",
+        "package": "https://gitcdn.xyz/repo/dapersonmgn/BHMB-worldCommands/master/index.js",
         "title": "World Commands",
         "description": "Adds /world start, /world restart, & /world stop as commands.",
         "env": "all"
