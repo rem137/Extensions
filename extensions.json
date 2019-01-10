@@ -137,6 +137,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/convert",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Migration/master/build/bundle.js",
+        "title": "Save Migration",
+        "description": "Migrate saves from V6->V7",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/banking",
         "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Server-Currency/master/build/bundle.js",
         "title": "Server Currency",

@@ -1,7 +1,7 @@
 const { readFileSync, readdirSync, writeFileSync } = require('fs')
 const assert = require('assert')
 
-let keys = [
+const keys = [
     'user',
     'id',
     'package',
@@ -17,10 +17,10 @@ function isValidEnv(env) {
 function validateJSON(json) {
     assert.ok(Array.isArray(json), 'JSON must be an array')
 
-    let seen = []
+    const seen = []
 
     json.forEach(ex => {
-        let id = ex.id || JSON.stringify(ex)
+        const id = ex.id || JSON.stringify(ex)
 
         assert.deepEqual(Object.keys(ex), keys, `Missing key or extra key for ${id}`)
         assert.ok(isValidEnv(ex.env), `Invalid env for ${id}`)
