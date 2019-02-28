@@ -121,6 +121,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/nav-names",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/1db584cf9d7bda63a477b12554363b97/raw/dea876df81ebc24d90fad3897798bd77e66b29f4/navbar-online.js",
+        "title": "Navbar Online",
+        "description": "Show online players in the navbar at the top of the page.",
+        "env": "browser"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/slash_op",
         "package": "https://gitcdn.xyz/repo/Bibliofile/BHMB-Slash-OP/master/build/bundle.js",
         "title": "OP Messages",
