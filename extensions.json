@@ -64,6 +64,14 @@
         "env": "all"
     },
     {
+        "user": "Bibliophile",
+        "id": "bibliofile/emojis",
+        "package": "https://gitcdn.xyz/repo/Bibliofile/9c0130733456611d7ddbdf2061ff88d7/raw/fb094243a8658d966fbd828fd3a461f3a4af55fd/emojis.js",
+        "title": "Emoji Shortcodes",
+        "description": "Use emoji shortcodes in your messages like :joy:",
+        "env": "all"
+    },
+    {
         "user": "DaPerson",
         "id": "dapersonmgn/groupmanagement",
         "package": "https://gitcdn.xyz/repo/dapersonmgn/BHMB-groupManagement/master/build/bundle.js",
