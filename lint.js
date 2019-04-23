@@ -14,23 +14,26 @@ function isValidEnv(env) {
     return env.replace(/\s|\+|all|browser|cli|cloud|mac|/g, '').length === 0
 }
 
-function validateJSON(json) {
+function validateJSON(json, file) {
     assert.ok(Array.isArray(json), 'JSON must be an array')
 
-    const seen = []
+    const seen = new Set()
 
     json.forEach(ex => {
-        const id = ex.id || JSON.stringify(ex)
+        const id = ex.id
 
         assert.deepEqual(Object.keys(ex), keys, `Missing key or extra key for ${id}`)
         assert.ok(isValidEnv(ex.env), `Invalid env for ${id}`)
         assert.ok(!ex.package.includes('github.com'), `package should not link directly to github, ${id}`)
-        assert.ok(!ex.package.includes('gitcdn.xyz/cdn'), 'gitcdn.xyz links should use /repo not /cdn')
 
-        if (seen.includes(id)) {
+        if (ex.package.includes('gitcdn.xyz')) {
+            console.log(`WARN [${file}]: gitcdn.xyz links should not be used due to stability, ${id}`)
+        }
+
+        if (seen.has(id)) {
             assert.fail(`Duplicate id ${id}`)
         }
-        seen.push(id)
+        seen.add(id)
     })
 }
 
@@ -43,7 +46,7 @@ readdirSync('.')
     .forEach(file => {
         try {
             let content = JSON.parse(readFileSync(file))
-            validateJSON(content)
+            validateJSON(content, file)
             writeFileSync(file, JSON.stringify(sortExtensions(content), null, 4) + '\n')
             console.log(`OK [${file}]: Lint passed, formatted file.`)
         } catch (error) {
