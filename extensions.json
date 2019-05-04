@@ -129,6 +129,14 @@
     },
     {
         "user": "Bibliophile",
+        "id": "bibliofile/motd",
+        "package": "https://bibliofile.github.io/BHMB-Mini-Extensions/motd.js",
+        "title": "Message of the day",
+        "description": "Create a MOTD which is only sent the first time a player joins that day.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
         "id": "bibliofile/name_triggers",
         "package": "http://bibliofile.github.io/BHMB-NameTriggers/build/bundle.js",
         "title": "Name Triggers",
