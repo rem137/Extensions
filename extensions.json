@@ -88,6 +88,14 @@
         "env": "all"
     },
     {
+        "user": "Wingysam",
+        "id": "xyz.wingysam.lastseen",
+        "title": "Last Seen",
+        "description": "Tell players where someone was last seen! - Adds the where command. /where wingysam",
+        "env": "browser+cloud",
+        "package": "https://wingysam.github.io/BHMB-LastSeen/extension.js"
+    },
+    {
         "user": "Bibliophile",
         "id": "bibliofile/lists",
         "package": "https://bibliofile.github.io/BHMB-List-Manager/build/bundle.js",
