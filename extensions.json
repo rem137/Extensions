@@ -90,10 +90,10 @@
     {
         "user": "Wingysam",
         "id": "xyz.wingysam.lastseen",
+        "package": "https://wingysam.github.io/BHMB-LastSeen/extension.js",
         "title": "Last Seen",
         "description": "Tell players where someone was last seen! - Adds the where command. /where wingysam",
-        "env": "browser+cloud",
-        "package": "https://wingysam.github.io/BHMB-LastSeen/extension.js"
+        "env": "browser+cloud"
     },
     {
         "user": "Bibliophile",
@@ -165,6 +165,14 @@
         "package": "https://bibliofile.github.io/BHMB-Slash-OP/build/bundle.js",
         "title": "OP Messages",
         "description": "Let players use /op to send a message to you.",
+        "env": "all"
+    },
+    {
+        "user": "Bibliophile",
+        "id": "bibliofile/prompts",
+        "package": "https://bibliofile.github.io/BHMB-Prompts/build/bundle.js",
+        "title": "Prompt Messages",
+        "description": "Custom interactive prompts with players",
         "env": "all"
     },
     {
