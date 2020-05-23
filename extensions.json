@@ -207,4 +207,12 @@
         "description": "Lets you use /warn to warn players before banning them, and automatically ban players with too many warnings.",
         "env": "all"
     }
+      {
+        "user": "rem137",
+        "id": "test",
+        "package": "https://http://blockheadsfans.com/messagebot/extensions/rem137/test",
+        "title": "random join message",
+        "description": "it a test",
+        "env": "all"
+    }
 ]
